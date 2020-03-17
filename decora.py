@@ -10,8 +10,9 @@ while not ordenado:
             ordenado = False
             print(lista)
 """
-
+"""
 lista = [146, 7,742, 2, 1, 6,32,51, 3, 4, 50, 0, 91]
+# meu proprio bubble sort
 ordenado = False
 while not ordenado:
     ordenado = True
@@ -26,3 +27,10 @@ while not ordenado:
                 aux = lista[i+1]
                 ordenado = False
     print(lista)
+"""
+lista = [146, 7,742, 2, 1, 6,32,51, 3, 4, 50, 0, 91]
+
+ordenado = False
+while not ordenado:
+    ordenado = True
+    for i in range(len(lista) -1):
